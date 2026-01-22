@@ -595,98 +595,54 @@
     </div>
   </section>
 
-  <!-- Interactive Grid Footer -->
-  <footer class="footer-interactive" id="footer-grid-container">
-    <canvas class="footer-grid-canvas"></canvas>
-
-    <div class="footer-grid-content">
-      <!-- Brand Node -->
-      <div class="grid-node node-brand" data-node-id="brand" data-node-group="brand">
-        <img src="assets/logo.png" alt="Tamam" class="node-logo">
-        <span class="node-brand-text">Tamam<span class="node-dot">.</span></span>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="assets/logo.png" alt="Tamam Technologies" class="logo-img">
+            <span class="logo-text">Tamam<span class="logo-dot">.</span></span>
+          </a>
+          <p>Engineering excellence for global industry.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Enterprise Software</a></li>
+            <li><a href="#services">Mobile & Web Apps</a></li>
+            <li><a href="#services">AI & Machine Learning</a></li>
+            <li><a href="#services">UI/UX Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Industries</h4>
+          <ul>
+            <li><a href="#industries">Energy & Utilities</a></li>
+            <li><a href="#industries">Infrastructure</a></li>
+            <li><a href="#industries">Manufacturing</a></li>
+            <li><a href="#industries">Government</a></li>
+          </ul>
+        </div>
       </div>
-
-      <!-- CTA Node -->
-      <div class="grid-node node-cta" data-node-id="cta" data-node-group="brand">
-        <span class="node-cta-text">Let's build</span>
-        <span class="node-cta-highlight">something great</span>
-        <a href="#contact" class="node-btn">Start Project</a>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tamam Technologies Ltd. All rights reserved.</p>
+        <p>United Kingdom</p>
       </div>
-
-      <!-- Service Nodes -->
-      <div class="grid-node node-service" data-node-id="service-1" data-node-group="services">
-        <span class="node-label">01</span>
-        <span class="node-text">Enterprise Software</span>
-      </div>
-      <div class="grid-node node-service" data-node-id="service-2" data-node-group="services">
-        <span class="node-label">02</span>
-        <span class="node-text">Mobile & Web</span>
-      </div>
-      <div class="grid-node node-service" data-node-id="service-3" data-node-group="services">
-        <span class="node-label">03</span>
-        <span class="node-text">AI & ML</span>
-      </div>
-      <div class="grid-node node-service" data-node-id="service-4" data-node-group="services">
-        <span class="node-label">04</span>
-        <span class="node-text">UI/UX Design</span>
-      </div>
-
-      <!-- Link Nodes -->
-      <a href="#about" class="grid-node node-link" data-node-id="link-1" data-node-group="links">About</a>
-      <a href="#portfolio" class="grid-node node-link" data-node-id="link-2" data-node-group="links">Work</a>
-      <a href="#process" class="grid-node node-link" data-node-id="link-3" data-node-group="links">Process</a>
-      <a href="#contact" class="grid-node node-link" data-node-id="link-4" data-node-group="links">Contact</a>
-
-      <!-- Social Nodes -->
-      <a href="#" class="grid-node node-social" data-node-id="social-1" data-node-group="social" aria-label="LinkedIn">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-        </svg>
-      </a>
-      <a href="#" class="grid-node node-social" data-node-id="social-2" data-node-group="social" aria-label="Twitter">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-        </svg>
-      </a>
-      <a href="#" class="grid-node node-social" data-node-id="social-3" data-node-group="social" aria-label="GitHub">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-        </svg>
-      </a>
-
-      <!-- Contact Node -->
-      <div class="grid-node node-contact" data-node-id="contact" data-node-group="brand">
-        <span class="node-label">Email</span>
-        <a href="mailto:hello@tamamtechnologies.co.uk">hello@tamamtechnologies.co.uk</a>
-      </div>
-
-      <!-- Location Node -->
-      <div class="grid-node node-location" data-node-id="location" data-node-group="info">
-        <span class="node-flag">🇬🇧</span>
-        <span>United Kingdom</span>
-      </div>
-
-      <!-- Availability Node -->
-      <div class="grid-node node-status" data-node-id="status" data-node-group="info">
-        <span class="status-dot"></span>
-        <span>Available</span>
-      </div>
-
-      <!-- Copyright Node -->
-      <div class="grid-node node-copyright" data-node-id="copyright" data-node-group="info">
-        <span>&copy; 2026 Tamam Technologies Ltd.</span>
-      </div>
-    </div>
-
-    <!-- Drag hint -->
-    <div class="footer-hint">
-      <span>drag the nodes</span>
     </div>
   </footer>
 
   <!-- Scripts -->
   <script src="js/particles.js"></script>
-  <script src="js/footer-grid.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
