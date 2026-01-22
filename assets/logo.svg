@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Two dots (eyes) -->
+  <circle cx="30" cy="20" r="10" fill="#e63946"/>
+  <circle cx="70" cy="20" r="10" fill="#e63946"/>
+  <!-- T shape (dark) -->
+  <rect x="20" y="32" width="60" height="12" rx="6" fill="#ffffff"/>
+  <rect x="44" y="32" width="12" height="35" rx="6" fill="#ffffff"/>
+  <!-- Smile arc -->
+  <path d="M20 60 Q50 95 80 60" stroke="#e63946" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>
