@@ -83,16 +83,19 @@ function initHeaderScroll() {
 }
 
 /**
- * Fade-in animations on scroll
+ * Scroll reveal animations
  */
 function initFadeAnimations() {
-  const fadeElements = document.querySelectorAll('.fade-in');
+  // Select all animation elements
+  const animatedElements = document.querySelectorAll(
+    '.fade-in, .reveal, .reveal-left, .reveal-right, .stagger-children'
+  );
 
-  if (fadeElements.length === 0) return;
+  if (animatedElements.length === 0) return;
 
   const observerOptions = {
     root: null,
-    rootMargin: '0px',
+    rootMargin: '0px 0px -50px 0px',
     threshold: 0.1,
   };
 
@@ -105,7 +108,7 @@ function initFadeAnimations() {
     });
   }, observerOptions);
 
-  fadeElements.forEach((element) => {
+  animatedElements.forEach((element) => {
     observer.observe(element);
   });
 }
