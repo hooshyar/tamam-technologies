@@ -210,15 +210,21 @@
 .hero-title {
   font-family: var(--font-display);
   font-size: var(--font-size-7xl);
-  font-weight: var(--font-weight-normal);
-  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.0;
   margin-bottom: var(--space-8);
-  letter-spacing: var(--letter-spacing-tight);
+  letter-spacing: -0.03em;
+  text-wrap: balance;
 }
 
 .hero-title em {
   font-style: italic;
+  font-weight: var(--font-weight-normal);
   color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 50%, var(--color-primary-dark) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .hero-subtitle {
